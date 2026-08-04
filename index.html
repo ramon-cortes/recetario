@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./icon.ico">
+  <link rel="stylesheet" type="text/css" href="./styles.css">
+  <title>Recetario GLB</title>
+</head>
+<body>
+  <!-- ENCABEZADO -->
+  <div class="titulo-general">RECETARIO GLB</div>
+  <div class="buscar-wrapper">
+    <div>Buscar&nbsp;<input type="text" id="input-buscar"></div>    
+    <div class="boton wingdings" id="buscar">$</div>
+    <div>&nbsp;
+      <select name="categoria" id="categoria">
+        <option value="todos">Todos</option>
+        <option value="postre">Postre</option>
+        <option value="pan">Pan</option>
+        <option value="fuerte">Plato Fuerte</option>
+      </select>
+    </div>
+    <div id="inicio" class="boton">INICIO</div>
+  </div>
+  <hr>
+
+  <!-- CONTENIDO -->
+  <div id="contenido">
+    <div class="receta-wrapper">
+      <div class="titulo">titulo</div>
+      <div class="comensales">
+        <img class="foto-thumb" src="./img/sin-foto.jpg" alt="">
+        <span>Comensales: 3-4</span>
+      </div>
+      <div class="titulo-secundario ingredientes">ingredientes</div>
+      <div class="ingredientes">
+        <ol>
+          <li>a</li>
+          <li>b</li>
+          <li>c</li>
+        </ol>
+      </div>    
+      <div class="titulo-secundario pasos">pasos</div>
+      <div class="pasos">
+        <ol>
+          <li>x</li>
+          <li>y</li>
+          <li>z</li>
+        </ol>
+      </div>
+      <div class="notas">notas</div>
+    </div>
+    
+
+  </div>  
+
+  <script type="module" src="./recetario.js"></script>
+</body>
+</html>
